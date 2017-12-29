@@ -1,0 +1,32 @@
+#gridMachines{
+	position: relative;
+  display: grid;
+  height: 50vh;
+  background-color: rgba(177, 67, 161, .6);
+  grid-template-columns: 50vw 50vw ;
+}
+
+#gridCelestial{
+	position: relative;
+  grid-template-columns: 70vw 30vw ;
+  display: grid;
+  height: 50vh;
+  background-color: rgba(93, 44, 153, .6);
+}
+
+#gridTemples{
+	position: relative;
+  grid-template-columns: 50vw 50vw ;
+
+  display: grid;
+  height: 50vh;
+  background-color: rgba(248, 250, 157, .1);
+}
+
+#gridPortals{
+	position: relative;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  height: 50vh;
+  background-color: rgba(233, 176, 133, .1);
+}

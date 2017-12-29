@@ -1,0 +1,28 @@
+body{
+	// box-sizing: inherit;
+	width: 100%;
+	background-color: rgba(0, 1, 13, 1);
+
+font-size: 27px;
+font-family: 'Oswald', sans-serif;
+}
+#theGrid{
+		position: relative;
+  grid-template-columns: 55vw 1fr;
+  // background-color: rgba(245, 78, 101, .06);
+
+  // grid-template-columns: 75vw ;
+  // grid-template-rows: 75vw ;
+  display: grid;
+  width: 100%;
+  grid-gap: .2em;
+  // margin: auto;
+}
+
+.thingHolder{
+	// margin: auto;
+	// background-color: rgba(195, 217, 237, .6);
+	width: 100%;
+	// padding: 2em;
+	color: rgb(247, 177, 149);
+}
